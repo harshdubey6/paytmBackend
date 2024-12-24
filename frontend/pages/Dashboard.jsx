@@ -9,7 +9,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchBalance = async () => {
       const res = await axios.get(
-        "http://localhost:3000/api/v1/account/balance",
+        "https://paytm-backend-8u9f.vercel.app/api/v1/account/balance",
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
