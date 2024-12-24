@@ -9,7 +9,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchBalance = async () => {
       const res = await axios.get(
-        "https://paytmbackend-84sc.onrender.com/api/v1/account/balance",
+        "https://paytmbackend-84sc.onrender.com/",
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
