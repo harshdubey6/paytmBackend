@@ -53,7 +53,7 @@ export default function SignUp() {
             <Button
               onClick={async () => {
                 const res = await axios.post(
-                  "https://paytm-backend-8u9f.vercel.app/api/v1/user/signup",
+                  "https://paytmbackend-84sc.onrender.com/api/v1/user/signup",
                   {
                     username: username,
                     password: password,
