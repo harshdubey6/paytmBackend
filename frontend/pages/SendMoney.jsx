@@ -45,7 +45,7 @@ export default function SendMoney() {
               <button
                 onClick={() => {
                   axios.post(
-                    "http://localhost:3000/api/v1/account/transfer",
+                    "https://paytm-backend-8u9f.vercel.app/api/v1/account/transfer",
                     {
                       to: id,
                       amount,
