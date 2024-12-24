@@ -34,7 +34,7 @@ export default function Signin() {
             <Button
               onClick={async () => {
                 const res = await axios.post(
-                  "https://paytmbackend-84sc.onrender.com/api/v1/user/signin",
+                  "https://paytmbackend-84sc.onrender.com/user/signin",
                   {
                     username,
                     password,
