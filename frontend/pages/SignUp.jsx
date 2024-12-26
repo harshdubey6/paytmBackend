@@ -53,7 +53,7 @@ export default function SignUp() {
             <Button
               onClick={async () => {
                 const res = await axios.post(
-                  "https://paytmbackend-84sc.onrender.com/user/signup",
+                  "https://paytmbackend-84sc.onrender.com/",
                   {
                     username: username,
                     password: password,
