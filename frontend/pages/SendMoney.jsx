@@ -45,7 +45,7 @@ export default function SendMoney() {
               <button
                 onClick={() => {
                   axios.post(
-                    "https://paytmbackend-84sc.onrender.com/account/transfer",
+                    "https://paytmbackend-84sc.onrender.com/",
                     {
                       to: id,
                       amount,
